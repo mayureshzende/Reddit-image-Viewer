@@ -1,6 +1,6 @@
 # Reddit Image Viewer
 
-In this exercise we'll create an image viewer for Reddit subs.
+created an image viewer for Reddit subs.
 
 ![screenshot](https://jhusain.github.io/reddit-image-viewer/screenshot.png)
 
@@ -40,4 +40,3 @@ This app may appear simple, but naive implementations could suffer from any of t
 * In the event image preloads complete out of order, old images may be displayed after images selected by the user more recently.
 * While a new sub is being loaded, the UI may continue responding to the navigation events for the current sub. Consequently images from the old sub may be displayed briefly before abruptly being replaced by those in the newly-loaded sub.
 
-You must use the correct Observable flattening methods to avoid hitting these race conditions.
